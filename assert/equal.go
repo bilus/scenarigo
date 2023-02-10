@@ -2,6 +2,7 @@ package assert
 
 import (
 	"encoding/json"
+	"log"
 	"reflect"
 	"sync"
 
@@ -59,6 +60,15 @@ func Equal(expected interface{}) Assertion {
 			}
 		}
 
+		// Attempt to coerce body to string if raw string specified.
+		if isString(expected) {
+			s, err := toString(v)
+			if err == nil {
+				v = s
+			}
+			log.Printf("%q", s)
+		}
+
 		if reflect.DeepEqual(v, expected) {
 			return nil
 		}
@@ -88,6 +98,25 @@ func Equal(expected interface{}) Assertion {
 		}
 		return errors.Errorf("expected %+v but got %+v", expected, v)
 	})
+}
+
+func toString(v interface{}) (interface{}, error) {
+	if s, ok := v.([]uint8); ok {
+		return string(s), nil
+	}
+	if s, ok := v.(string); ok {
+		return s, nil
+	}
+	return nil, errors.Errorf("failed to convert %v (type %T) to string", v, v)
+}
+
+func isString(v interface{}) bool {
+	switch v.(type) {
+	case string:
+		return true
+	default:
+		return false
+	}
 }
 
 func isNil(i interface{}) bool {
