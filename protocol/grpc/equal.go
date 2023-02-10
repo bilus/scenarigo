@@ -6,8 +6,8 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/zoncoen/scenarigo/assert"
-	"github.com/zoncoen/scenarigo/internal/reflectutil"
+	"github.com/bilus/scenarigo/assert"
+	"github.com/bilus/scenarigo/internal/reflectutil"
 )
 
 func init() {

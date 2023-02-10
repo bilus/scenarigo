@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/goccy/go-yaml"
-	"github.com/zoncoen/scenarigo/errors"
+	"github.com/bilus/scenarigo/errors"
 )
 
 func TestBuild(t *testing.T) {

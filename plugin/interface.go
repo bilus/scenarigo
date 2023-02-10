@@ -1,9 +1,9 @@
 package plugin
 
 import (
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/schema"
-	"github.com/zoncoen/scenarigo/template"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/schema"
+	"github.com/bilus/scenarigo/template"
 )
 
 // Context represents a scenarigo context.

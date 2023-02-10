@@ -15,9 +15,9 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/text/encoding/japanese"
 
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/internal/testutil"
-	"github.com/zoncoen/scenarigo/reporter"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/internal/testutil"
+	"github.com/bilus/scenarigo/reporter"
 )
 
 type transport struct {

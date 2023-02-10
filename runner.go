@@ -13,13 +13,13 @@ import (
 	"github.com/fatih/color"
 	"github.com/pkg/errors"
 
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/internal/filepathutil"
-	"github.com/zoncoen/scenarigo/plugin"
-	"github.com/zoncoen/scenarigo/protocol/grpc"
-	"github.com/zoncoen/scenarigo/protocol/http"
-	"github.com/zoncoen/scenarigo/reporter"
-	"github.com/zoncoen/scenarigo/schema"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/internal/filepathutil"
+	"github.com/bilus/scenarigo/plugin"
+	"github.com/bilus/scenarigo/protocol/grpc"
+	"github.com/bilus/scenarigo/protocol/http"
+	"github.com/bilus/scenarigo/reporter"
+	"github.com/bilus/scenarigo/schema"
 )
 
 func init() {

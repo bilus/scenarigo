@@ -8,12 +8,12 @@ import (
 
 	"github.com/cenkalti/backoff/v4"
 
-	"github.com/zoncoen/scenarigo/assert"
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/errors"
-	"github.com/zoncoen/scenarigo/plugin"
-	"github.com/zoncoen/scenarigo/reporter"
-	"github.com/zoncoen/scenarigo/schema"
+	"github.com/bilus/scenarigo/assert"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/errors"
+	"github.com/bilus/scenarigo/plugin"
+	"github.com/bilus/scenarigo/reporter"
+	"github.com/bilus/scenarigo/schema"
 )
 
 func runStep(ctx *context.Context, scenario *schema.Scenario, s *schema.Step, stepIdx int) *context.Context {

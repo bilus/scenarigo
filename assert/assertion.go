@@ -8,7 +8,7 @@ import (
 	"github.com/zoncoen/query-go"
 	yamlextractor "github.com/zoncoen/query-go/extractor/yaml"
 
-	"github.com/zoncoen/scenarigo/errors"
+	"github.com/bilus/scenarigo/errors"
 )
 
 // Assertion implements value assertion.

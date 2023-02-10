@@ -9,16 +9,16 @@ import (
 
 	"github.com/goccy/go-yaml"
 
-	"github.com/zoncoen/scenarigo/assert"
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/errors"
-	"github.com/zoncoen/scenarigo/internal/assertutil"
-	"github.com/zoncoen/scenarigo/internal/reflectutil"
-	"github.com/zoncoen/scenarigo/logger"
-	"github.com/zoncoen/scenarigo/mock/protocol"
-	httpprotocol "github.com/zoncoen/scenarigo/protocol/http"
-	"github.com/zoncoen/scenarigo/protocol/http/marshaler"
-	"github.com/zoncoen/scenarigo/protocol/http/unmarshaler"
+	"github.com/bilus/scenarigo/assert"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/errors"
+	"github.com/bilus/scenarigo/internal/assertutil"
+	"github.com/bilus/scenarigo/internal/reflectutil"
+	"github.com/bilus/scenarigo/logger"
+	"github.com/bilus/scenarigo/mock/protocol"
+	httpprotocol "github.com/bilus/scenarigo/protocol/http"
+	"github.com/bilus/scenarigo/protocol/http/marshaler"
+	"github.com/bilus/scenarigo/protocol/http/unmarshaler"
 )
 
 // NewHandler returns a handler sending mock responses.

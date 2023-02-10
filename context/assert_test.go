@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/goccy/go-yaml"
-	"github.com/zoncoen/scenarigo/assert"
-	"github.com/zoncoen/scenarigo/internal/testutil"
-	"github.com/zoncoen/scenarigo/template"
+	"github.com/bilus/scenarigo/assert"
+	"github.com/bilus/scenarigo/internal/testutil"
+	"github.com/bilus/scenarigo/template"
 )
 
 func TestAssertions(t *testing.T) {

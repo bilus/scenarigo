@@ -1,7 +1,7 @@
 package assert
 
 import (
-	"github.com/zoncoen/scenarigo/errors"
+	"github.com/bilus/scenarigo/errors"
 )
 
 // And returns a new assertion to ensure that value passes all assertions.

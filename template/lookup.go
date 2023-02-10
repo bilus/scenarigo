@@ -7,8 +7,8 @@ import (
 	"github.com/zoncoen/query-go"
 	yamlextractor "github.com/zoncoen/query-go/extractor/yaml"
 
-	"github.com/zoncoen/scenarigo/template/ast"
-	"github.com/zoncoen/scenarigo/template/token"
+	"github.com/bilus/scenarigo/template/ast"
+	"github.com/bilus/scenarigo/template/token"
 )
 
 func lookup(node ast.Node, data interface{}) (interface{}, error) {

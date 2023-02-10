@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/zoncoen/scenarigo/errors"
+	"github.com/bilus/scenarigo/errors"
 )
 
 func TestEqual(t *testing.T) {

@@ -15,8 +15,8 @@ import (
 	"github.com/goccy/go-yaml/parser"
 	"golang.org/x/mod/module"
 
-	"github.com/zoncoen/scenarigo/errors"
-	"github.com/zoncoen/scenarigo/internal/filepathutil"
+	"github.com/bilus/scenarigo/errors"
+	"github.com/bilus/scenarigo/internal/filepathutil"
 )
 
 var scehamaVersionPath *yaml.Path

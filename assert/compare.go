@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/zoncoen/scenarigo/errors"
+	"github.com/bilus/scenarigo/errors"
 )
 
 type compareType int

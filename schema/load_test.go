@@ -11,9 +11,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/pkg/errors"
 	"github.com/sergi/go-diff/diffmatchpatch"
-	"github.com/zoncoen/scenarigo/assert"
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/protocol"
+	"github.com/bilus/scenarigo/assert"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/protocol"
 )
 
 type testProtocol struct {

@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/zoncoen/scenarigo/version"
+	"github.com/bilus/scenarigo/version"
 )
 
 var (

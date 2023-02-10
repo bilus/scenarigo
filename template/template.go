@@ -9,10 +9,10 @@ import (
 
 	"github.com/goccy/go-yaml"
 	"github.com/pkg/errors"
-	"github.com/zoncoen/scenarigo/internal/reflectutil"
-	"github.com/zoncoen/scenarigo/template/ast"
-	"github.com/zoncoen/scenarigo/template/parser"
-	"github.com/zoncoen/scenarigo/template/token"
+	"github.com/bilus/scenarigo/internal/reflectutil"
+	"github.com/bilus/scenarigo/template/ast"
+	"github.com/bilus/scenarigo/template/parser"
+	"github.com/bilus/scenarigo/template/token"
 )
 
 // Template is the representation of a parsed template.

@@ -1,7 +1,7 @@
 package context
 
 import (
-	"github.com/zoncoen/scenarigo/template"
+	"github.com/bilus/scenarigo/template"
 )
 
 // ExecuteTemplate executes template strings in context.

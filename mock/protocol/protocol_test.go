@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/zoncoen/scenarigo/logger"
+	"github.com/bilus/scenarigo/logger"
 )
 
 func TestRegistry(t *testing.T) {

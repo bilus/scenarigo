@@ -8,8 +8,8 @@ import (
 	"sort"
 
 	"github.com/spf13/cobra"
-	"github.com/zoncoen/scenarigo/cmd/scenarigo/cmd/config"
-	"github.com/zoncoen/scenarigo/internal/filepathutil"
+	"github.com/bilus/scenarigo/cmd/scenarigo/cmd/config"
+	"github.com/bilus/scenarigo/internal/filepathutil"
 )
 
 var listCmd = &cobra.Command{

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/testdata/gen/pb/test"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/testdata/gen/pb/test"
 	"google.golang.org/grpc"
 )
 

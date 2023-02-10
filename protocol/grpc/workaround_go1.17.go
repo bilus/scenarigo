@@ -11,6 +11,6 @@ import (
 func init() {
 	// This function call tells the Go compiler that the interface grpc.DialOption will be used.
 	// It prevents the bug that fails to method call by deleting references by the linker.
-	// ref. https://github.com/zoncoen/scenarigo/issues/136
+	// ref. https://github.com/bilus/scenarigo/issues/136
 	grpc.Dial("", grpc.WithTransportCredentials(insecure.NewCredentials())) //nolint:errcheck
 }

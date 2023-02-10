@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/errors"
-	"github.com/zoncoen/scenarigo/plugin"
-	"github.com/zoncoen/scenarigo/schema"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/errors"
+	"github.com/bilus/scenarigo/plugin"
+	"github.com/bilus/scenarigo/schema"
 )
 
 // RunScenario runs a test scenario s.

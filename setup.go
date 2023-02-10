@@ -3,8 +3,8 @@ package scenarigo
 import (
 	"sort"
 
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/plugin"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/plugin"
 )
 
 type setupMap map[string]plugin.SetupFunc

@@ -25,12 +25,12 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/zoncoen/scenarigo"
-	"github.com/zoncoen/scenarigo/assert"
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/protocol"
-	"github.com/zoncoen/scenarigo/reporter"
-	"github.com/zoncoen/scenarigo/testdata/gen/pb/test"
+	"github.com/bilus/scenarigo"
+	"github.com/bilus/scenarigo/assert"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/protocol"
+	"github.com/bilus/scenarigo/reporter"
+	"github.com/bilus/scenarigo/testdata/gen/pb/test"
 )
 
 type testProtocol struct {

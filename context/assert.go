@@ -3,7 +3,7 @@ package context
 import (
 	"github.com/pkg/errors"
 
-	"github.com/zoncoen/scenarigo/assert"
+	"github.com/bilus/scenarigo/assert"
 )
 
 var assertions = map[string]interface{}{

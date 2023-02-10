@@ -9,7 +9,7 @@ import (
 	"github.com/goccy/go-yaml"
 	"github.com/google/go-cmp/cmp"
 	"github.com/pkg/errors"
-	"github.com/zoncoen/scenarigo/internal/testutil"
+	"github.com/bilus/scenarigo/internal/testutil"
 )
 
 func TestNew(t *testing.T) {

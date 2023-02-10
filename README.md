@@ -1,13 +1,13 @@
-<a href="https://github.com/zoncoen/scenarigo">
+<a href="https://github.com/bilus/scenarigo">
   <img alt="Scenarigo" src="https://user-images.githubusercontent.com/2238852/205980597-37eaaf03-fd35-4a04-93c4-884c95f48df3.png" width="485px">
 </a>
 
 A scenario-based API testing tool for HTTP/gRPC server.
 
-[![godoc](https://godoc.org/github.com/zoncoen/scenarigo?status.svg)](https://pkg.go.dev/github.com/zoncoen/scenarigo)
-![test](https://github.com/zoncoen/scenarigo/workflows/test/badge.svg?branch=main)
+[![godoc](https://godoc.org/github.com/bilus/scenarigo?status.svg)](https://pkg.go.dev/github.com/bilus/scenarigo)
+![test](https://github.com/bilus/scenarigo/workflows/test/badge.svg?branch=main)
 [![codecov](https://codecov.io/gh/zoncoen/scenarigo/branch/main/graph/badge.svg)](https://codecov.io/gh/zoncoen/scenarigo)
-[![go report](https://goreportcard.com/badge/zoncoen/scenarigo)](https://goreportcard.com/report/github.com/zoncoen/scenarigo)
+[![go report](https://goreportcard.com/badge/zoncoen/scenarigo)](https://goreportcard.com/report/github.com/bilus/scenarigo)
 [![codebeat](https://codebeat.co/badges/93ee2453-1a25-4db6-b98e-c430c994b4b8)](https://codebeat.co/projects/github-com-zoncoen-scenarigo-main)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -39,19 +39,19 @@ steps:
 ### go install command (recommend)
 
 ```shell
-$ go install github.com/zoncoen/scenarigo/cmd/scenarigo@v0.13.2
+$ go install github.com/bilus/scenarigo/cmd/scenarigo@v0.13.2
 ```
 
 ### from release page
 
-Go to the [releases page](https://github.com/zoncoen/scenarigo/releases) and download the zip file. Unpack the zip file, and put the binary to a directory in your `$PATH`.
+Go to the [releases page](https://github.com/bilus/scenarigo/releases) and download the zip file. Unpack the zip file, and put the binary to a directory in your `$PATH`.
 
 You can download the latest command into the `./scenarigo` directory with the following one-liner code. Place the binary `./scenarigo/scenarigo` into your `$PATH`.
 
 ```shell
 $ version=$(curl -s https://api.github.com/repos/zoncoen/scenarigo/releases/latest | jq -r '.tag_name') && \
     go_version='go1.19.1' && \
-    curl -sLJ https://github.com/zoncoen/scenarigo/releases/download/${version}/scenarigo_${version}_${go_version}_$(uname)_$(uname -m).tar.gz -o scenarigo.tar.gz && \
+    curl -sLJ https://github.com/bilus/scenarigo/releases/download/${version}/scenarigo_${version}_${go_version}_$(uname)_$(uname -m).tar.gz -o scenarigo.tar.gz && \
     mkdir ./scenarigo && tar -zxvf ./scenarigo.tar.gz -C ./scenarigo && rm scenarigo.tar.gz
 ```
 
@@ -415,7 +415,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/zoncoen/scenarigo/plugin"
+	"github.com/bilus/scenarigo/plugin"
 
 	secretmanager "cloud.google.com/go/secretmanager/apiv1"
 	secretmanagerpb "google.golang.org/genproto/googleapis/cloud/secretmanager/v1"
@@ -467,7 +467,7 @@ Similarly, [`plugin.RegisterSetupEachScenario`](https://pkg.go.dev/github.com/zo
 package main
 
 import (
-	"github.com/zoncoen/scenarigo/plugin"
+	"github.com/bilus/scenarigo/plugin"
 
 	"github.com/google/uuid"
 )
@@ -509,8 +509,8 @@ Generally, a `step` represents sending a request in Scenarigo. However, you can 
 package main
 
 import (
-	"github.com/zoncoen/scenarigo/plugin"
-	"github.com/zoncoen/scenarigo/schema"
+	"github.com/bilus/scenarigo/plugin"
+	"github.com/bilus/scenarigo/schema"
 )
 
 var Nop = plugin.StepFunc(func(ctx *plugin.Context, step *schema.Step) *plugin.Context {
@@ -539,7 +539,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/zoncoen/scenarigo/plugin"
+	"github.com/bilus/scenarigo/plugin"
 )
 
 var CoolFunc plugin.LeftArrowFunc = &fn{}

@@ -3,8 +3,8 @@ package assert
 import (
 	"reflect"
 
-	"github.com/zoncoen/scenarigo/errors"
-	"github.com/zoncoen/scenarigo/internal/reflectutil"
+	"github.com/bilus/scenarigo/errors"
+	"github.com/bilus/scenarigo/internal/reflectutil"
 )
 
 // Contains returns an assertion to ensure a value contains the value.

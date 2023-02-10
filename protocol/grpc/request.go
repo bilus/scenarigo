@@ -13,9 +13,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/errors"
-	"github.com/zoncoen/scenarigo/internal/reflectutil"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/errors"
+	"github.com/bilus/scenarigo/internal/reflectutil"
 )
 
 // Request represents a request.

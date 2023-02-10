@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/plugin"
-	"github.com/zoncoen/scenarigo/reporter"
-	"github.com/zoncoen/scenarigo/schema"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/plugin"
+	"github.com/bilus/scenarigo/reporter"
+	"github.com/bilus/scenarigo/schema"
 )
 
 func TestRunScenario_Context_ScenarioFilepath(t *testing.T) {

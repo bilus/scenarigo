@@ -37,12 +37,12 @@ func TestLoadConfig(t *testing.T) {
 				"remote.so": {
 					Order: 2,
 					Name:  "remote.so",
-					Src:   "github.com/zoncoen/scenarigo",
+					Src:   "github.com/bilus/scenarigo",
 				},
 				"remote-with-version.so": {
 					Order: 3,
 					Name:  "remote-with-version.so",
-					Src:   "github.com/zoncoen/scenarigo@v1.0.0",
+					Src:   "github.com/bilus/scenarigo@v1.0.0",
 				},
 			},
 			Output: OutputConfig{

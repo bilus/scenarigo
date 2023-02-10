@@ -26,8 +26,8 @@ import (
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/module"
 
-	"github.com/zoncoen/scenarigo"
-	"github.com/zoncoen/scenarigo/cmd/scenarigo/cmd/config"
+	"github.com/bilus/scenarigo"
+	"github.com/bilus/scenarigo/cmd/scenarigo/cmd/config"
 )
 
 var (
@@ -1253,9 +1253,9 @@ require (
 
 go 1.17
 
-require github.com/zoncoen/scenarigo v0.11.2
+require github.com/bilus/scenarigo v0.11.2
 
-replace github.com/zoncoen/scenarigo v0.11.2 => github.com/zoncoen/scenarigo v0.11.0
+replace github.com/bilus/scenarigo v0.11.2 => github.com/bilus/scenarigo v0.11.0
 `,
 			overrides: map[string]*overrideModule{
 				"google.golang.org/grpc": {
@@ -1272,8 +1272,8 @@ replace github.com/zoncoen/scenarigo v0.11.2 => github.com/zoncoen/scenarigo v0.
 
 go 1.17
 `,
-			expectStdout: `WARN: test.so: remove require github.com/zoncoen/scenarigo v0.11.2
-WARN: test.so: remove replace github.com/zoncoen/scenarigo v0.11.2 => github.com/zoncoen/scenarigo v0.11.0
+			expectStdout: `WARN: test.so: remove require github.com/bilus/scenarigo v0.11.2
+WARN: test.so: remove replace github.com/bilus/scenarigo v0.11.2 => github.com/bilus/scenarigo v0.11.0
 `,
 		},
 		"add require": {
@@ -1483,7 +1483,7 @@ require (
 
 go 1.17
 
-require github.com/zoncoen/scenarigo v0.11.2
+require github.com/bilus/scenarigo v0.11.2
 
 require (
 	github.com/fatih/color v1.13.0 // indirect
@@ -1507,7 +1507,7 @@ require (
 			src: `package main
 
 import (
-	_ "github.com/zoncoen/scenarigo/protocol/grpc"
+	_ "github.com/bilus/scenarigo/protocol/grpc"
 )
 `,
 			overrides: map[string]*overrideModule{
@@ -1525,7 +1525,7 @@ import (
 
 go 1.17
 
-require github.com/zoncoen/scenarigo v0.11.2
+require github.com/bilus/scenarigo v0.11.2
 
 require (
 	github.com/fatih/color v1.13.0 // indirect
@@ -1556,7 +1556,7 @@ replace google.golang.org/grpc v1.46.0 => google.golang.org/grpc v1.40.0
 
 go 1.17
 
-require github.com/zoncoen/scenarigo v0.11.2
+require github.com/bilus/scenarigo v0.11.2
 
 require (
 	github.com/fatih/color v1.13.0 // indirect
@@ -1582,7 +1582,7 @@ replace google.golang.org/grpc v1.46.0 => google.golang.org/grpc v1.40.0
 			src: `package main
 
 import (
-	_ "github.com/zoncoen/scenarigo/protocol/grpc"
+	_ "github.com/bilus/scenarigo/protocol/grpc"
 )
 `,
 			overrides: map[string]*overrideModule{
@@ -1600,7 +1600,7 @@ import (
 
 go 1.17
 
-require github.com/zoncoen/scenarigo v0.11.2
+require github.com/bilus/scenarigo v0.11.2
 
 require (
 	github.com/fatih/color v1.13.0 // indirect
@@ -1631,7 +1631,7 @@ replace google.golang.org/grpc v1.46.0 => google.golang.org/grpc v1.40.1
 
 go 1.17
 
-require github.com/zoncoen/scenarigo v0.11.2
+require github.com/bilus/scenarigo v0.11.2
 
 require (
 	github.com/fatih/color v1.13.0 // indirect
@@ -1657,7 +1657,7 @@ replace google.golang.org/grpc v1.46.0 => google.golang.org/grpc v1.40.0
 			src: `package main
 
 import (
-	_ "github.com/zoncoen/scenarigo/protocol/grpc"
+	_ "github.com/bilus/scenarigo/protocol/grpc"
 )
 `,
 			overrides: map[string]*overrideModule{
@@ -1686,7 +1686,7 @@ import (
 
 go 1.17
 
-require github.com/zoncoen/scenarigo v0.11.2
+require github.com/bilus/scenarigo v0.11.2
 
 require (
 	github.com/fatih/color v1.13.0 // indirect
@@ -1717,7 +1717,7 @@ replace google.golang.org/grpc v1.46.0 => google.golang.org/grpc v1.40.1
 
 go 1.17
 
-require github.com/zoncoen/scenarigo v0.11.2
+require github.com/bilus/scenarigo v0.11.2
 
 require (
 	github.com/fatih/color v1.13.0 // indirect
@@ -1743,7 +1743,7 @@ replace google.golang.org/grpc v1.46.0 => google.golang.org/grpc v1.40.0
 			src: `package main
 
 import (
-	_ "github.com/zoncoen/scenarigo/protocol/grpc"
+	_ "github.com/bilus/scenarigo/protocol/grpc"
 )
 `,
 			overrides: map[string]*overrideModule{
@@ -1761,7 +1761,7 @@ import (
 
 go 1.17
 
-require github.com/zoncoen/scenarigo v0.11.2
+require github.com/bilus/scenarigo v0.11.2
 
 require (
 	github.com/fatih/color v1.13.0 // indirect

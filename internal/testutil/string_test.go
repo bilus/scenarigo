@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/zoncoen/scenarigo/version"
+	"github.com/bilus/scenarigo/version"
 )
 
 func TestReplaceOutput(t *testing.T) {

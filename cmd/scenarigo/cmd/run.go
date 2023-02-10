@@ -6,10 +6,10 @@ import (
 	"github.com/fatih/color"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
-	"github.com/zoncoen/scenarigo"
-	"github.com/zoncoen/scenarigo/cmd/scenarigo/cmd/config"
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/reporter"
+	"github.com/bilus/scenarigo"
+	"github.com/bilus/scenarigo/cmd/scenarigo/cmd/config"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/reporter"
 )
 
 // ErrTestFailed is the error returned when the test failed.

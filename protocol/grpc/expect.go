@@ -13,10 +13,10 @@ import (
 	// Register proto messages to unmarshal com.google.protobuf.Any.
 	_ "google.golang.org/genproto/googleapis/rpc/errdetails"
 
-	"github.com/zoncoen/scenarigo/assert"
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/errors"
-	"github.com/zoncoen/scenarigo/internal/assertutil"
+	"github.com/bilus/scenarigo/assert"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/errors"
+	"github.com/bilus/scenarigo/internal/assertutil"
 )
 
 // Expect represents expected response values.

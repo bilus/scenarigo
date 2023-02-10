@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/zoncoen/scenarigo/internal/yamlutil"
+	"github.com/bilus/scenarigo/internal/yamlutil"
 )
 
 // Mock represents a mock.

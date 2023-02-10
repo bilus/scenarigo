@@ -7,7 +7,7 @@ import (
 
 	"github.com/sergi/go-diff/diffmatchpatch"
 	"github.com/spf13/cobra"
-	"github.com/zoncoen/scenarigo/version"
+	"github.com/bilus/scenarigo/version"
 )
 
 func TestVersion(t *testing.T) {

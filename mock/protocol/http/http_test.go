@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/goccy/go-yaml"
-	"github.com/zoncoen/scenarigo/logger"
-	"github.com/zoncoen/scenarigo/mock/protocol"
+	"github.com/bilus/scenarigo/logger"
+	"github.com/bilus/scenarigo/mock/protocol"
 )
 
 func init() {

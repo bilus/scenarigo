@@ -12,9 +12,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/reporter"
-	"github.com/zoncoen/scenarigo/schema"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/reporter"
+	"github.com/bilus/scenarigo/schema"
 )
 
 func TestRunnerWithScenarios(t *testing.T) {

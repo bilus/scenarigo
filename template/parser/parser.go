@@ -4,8 +4,8 @@ package parser
 import (
 	"io"
 
-	"github.com/zoncoen/scenarigo/template/ast"
-	"github.com/zoncoen/scenarigo/template/token"
+	"github.com/bilus/scenarigo/template/ast"
+	"github.com/bilus/scenarigo/template/token"
 )
 
 // Parser represents a parser.

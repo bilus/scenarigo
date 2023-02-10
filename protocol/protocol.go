@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zoncoen/scenarigo/assert"
-	"github.com/zoncoen/scenarigo/context"
+	"github.com/bilus/scenarigo/assert"
+	"github.com/bilus/scenarigo/context"
 )
 
 var (

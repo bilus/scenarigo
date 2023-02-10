@@ -9,10 +9,10 @@ import (
 	"golang.org/x/sync/errgroup"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/zoncoen/scenarigo/internal/yamlutil"
-	"github.com/zoncoen/scenarigo/logger"
-	"github.com/zoncoen/scenarigo/mock/protocol"
-	"github.com/zoncoen/scenarigo/mock/protocol/http"
+	"github.com/bilus/scenarigo/internal/yamlutil"
+	"github.com/bilus/scenarigo/logger"
+	"github.com/bilus/scenarigo/mock/protocol"
+	"github.com/bilus/scenarigo/mock/protocol/http"
 )
 
 func init() {

@@ -10,8 +10,8 @@ import (
 	"github.com/goccy/go-yaml"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/zoncoen/scenarigo/logger"
-	"github.com/zoncoen/scenarigo/mock/protocol"
+	"github.com/bilus/scenarigo/logger"
+	"github.com/bilus/scenarigo/mock/protocol"
 )
 
 func TestHandler(t *testing.T) {

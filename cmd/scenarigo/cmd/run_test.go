@@ -14,8 +14,8 @@ import (
 
 	"github.com/sergi/go-diff/diffmatchpatch"
 	"github.com/spf13/cobra"
-	"github.com/zoncoen/scenarigo/cmd/scenarigo/cmd/config"
-	"github.com/zoncoen/scenarigo/internal/testutil"
+	"github.com/bilus/scenarigo/cmd/scenarigo/cmd/config"
+	"github.com/bilus/scenarigo/internal/testutil"
 )
 
 func TestRun(t *testing.T) {

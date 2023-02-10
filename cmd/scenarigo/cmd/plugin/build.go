@@ -20,10 +20,10 @@ import (
 	"golang.org/x/mod/module"
 	"golang.org/x/mod/semver"
 
-	"github.com/zoncoen/scenarigo"
-	"github.com/zoncoen/scenarigo/cmd/scenarigo/cmd/config"
-	"github.com/zoncoen/scenarigo/internal/filepathutil"
-	"github.com/zoncoen/scenarigo/version"
+	"github.com/bilus/scenarigo"
+	"github.com/bilus/scenarigo/cmd/scenarigo/cmd/config"
+	"github.com/bilus/scenarigo/internal/filepathutil"
+	"github.com/bilus/scenarigo/version"
 )
 
 var (
@@ -726,7 +726,7 @@ func requiredModulesByScenarigo() ([]*modfile.Require, error) {
 	if v := version.String(); !strings.HasSuffix(v, "-dev") {
 		return append([]*modfile.Require{{
 			Mod: module.Version{
-				Path:    "github.com/zoncoen/scenarigo",
+				Path:    "github.com/bilus/scenarigo",
 				Version: v,
 			},
 		}}, gomod.Require...), nil

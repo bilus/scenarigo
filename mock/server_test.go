@@ -11,9 +11,9 @@ import (
 
 	"github.com/goccy/go-yaml"
 
-	"github.com/zoncoen/scenarigo/internal/yamlutil"
-	"github.com/zoncoen/scenarigo/logger"
-	"github.com/zoncoen/scenarigo/mock/protocol"
+	"github.com/bilus/scenarigo/internal/yamlutil"
+	"github.com/bilus/scenarigo/logger"
+	"github.com/bilus/scenarigo/mock/protocol"
 )
 
 func TestNewServer(t *testing.T) {

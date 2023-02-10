@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/zoncoen/scenarigo/plugin"
-	"github.com/zoncoen/scenarigo/schema"
+	"github.com/bilus/scenarigo/plugin"
+	"github.com/bilus/scenarigo/schema"
 )
 
 func init() {

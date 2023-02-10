@@ -10,8 +10,8 @@ import (
 	"github.com/zoncoen/query-go"
 	yamlextractor "github.com/zoncoen/query-go/extractor/yaml"
 
-	"github.com/zoncoen/scenarigo/errors"
-	"github.com/zoncoen/scenarigo/internal/reflectutil"
+	"github.com/bilus/scenarigo/errors"
+	"github.com/bilus/scenarigo/internal/reflectutil"
 )
 
 //nolint:exhaustruct

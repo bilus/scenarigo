@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 
 	"github.com/spf13/cobra"
-	"github.com/zoncoen/scenarigo"
-	"github.com/zoncoen/scenarigo/cmd/scenarigo/cmd/config"
-	"github.com/zoncoen/scenarigo/reporter"
+	"github.com/bilus/scenarigo"
+	"github.com/bilus/scenarigo/cmd/scenarigo/cmd/config"
+	"github.com/bilus/scenarigo/reporter"
 )
 
 var listCmd = &cobra.Command{

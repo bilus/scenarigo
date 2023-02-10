@@ -12,9 +12,9 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/internal/reflectutil"
-	"github.com/zoncoen/scenarigo/testdata/gen/pb/test"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/internal/reflectutil"
+	"github.com/bilus/scenarigo/testdata/gen/pb/test"
 )
 
 func TestExpect_Build(t *testing.T) {

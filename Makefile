@@ -163,7 +163,7 @@ gen/mock: $(GOTYPENAMES) $(MOCKGEN)
 		package=$$(basename $$(dirname $$file)); \
 		echo "generate mock for $$file"; \
 		dstfile=$$(dirname $$file)/$$(basename $${file%.pb.go})_mock.go; \
-		self=github.com/zoncoen/scenarigo`echo $(GEN_PB_DIR)/$$package | perl -pe 's!^$(CURDIR)!!g'`; \
+		self=github.com/bilus/scenarigo`echo $(GEN_PB_DIR)/$$package | perl -pe 's!^$(CURDIR)!!g'`; \
 		$(GOTYPENAMES) --filename $$file --only-exported --types interface | xargs -ISTRUCT -L1 -P8 $(MOCKGEN) -source $$file -package $$package -self_package $$self -destination $$dstfile; \
 		perl -pi -e 's!^// Source: .*\n!!g' $$dstfile ||  (echo "failed to delete generated marker about source path ( Source: /path/to/name.pb.go )"); \
 	done

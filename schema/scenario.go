@@ -5,7 +5,7 @@ import (
 	"github.com/goccy/go-yaml/ast"
 	"github.com/pkg/errors"
 
-	"github.com/zoncoen/scenarigo/protocol"
+	"github.com/bilus/scenarigo/protocol"
 )
 
 // Scenario represents a test scenario.

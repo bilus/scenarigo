@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"github.com/zoncoen/scenarigo/version"
+	"github.com/bilus/scenarigo/version"
 )
 
 func init() {

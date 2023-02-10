@@ -7,7 +7,7 @@ import (
 
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/zoncoen/scenarigo/testdata/gen/pb/test"
+	"github.com/bilus/scenarigo/testdata/gen/pb/test"
 )
 
 func TestEqualEnum(t *testing.T) {

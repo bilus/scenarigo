@@ -5,9 +5,9 @@ import (
 
 	"github.com/goccy/go-yaml"
 
-	"github.com/zoncoen/scenarigo/context"
-	"github.com/zoncoen/scenarigo/plugin"
-	"github.com/zoncoen/scenarigo/schema"
+	"github.com/bilus/scenarigo/context"
+	"github.com/bilus/scenarigo/plugin"
+	"github.com/bilus/scenarigo/schema"
 )
 
 var (

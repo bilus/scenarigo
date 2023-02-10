@@ -4,7 +4,7 @@ import (
 	"bytes"
 
 	"github.com/goccy/go-yaml"
-	"github.com/zoncoen/scenarigo/protocol"
+	"github.com/bilus/scenarigo/protocol"
 )
 
 // Register registers http protocol.

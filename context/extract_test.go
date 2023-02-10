@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/zoncoen/query-go"
-	"github.com/zoncoen/scenarigo/reporter"
+	"github.com/bilus/scenarigo/reporter"
 )
 
 func TestContext_ExtractKey(t *testing.T) {
